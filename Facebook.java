@@ -82,8 +82,14 @@ public class Facebook extends SharingAdapter {
 			if (params.containsKey("image")) {
 				InputStream imageStream = act.getContentResolver()
 						.openInputStream(Uri.parse(params.getString("image")));
-				Bitmap selectedImage = StaticUtilities.getOptimalBitmap(
-						imageStream, 1);
+				Bitmap selectedImage = null;
+				int sample = 1;
+				do {
+					try {
+						selectedImage = StaticUtilities.getOptimalBitmap(imageStream, sample);
+					} catch (OutOfMemoryError e) {} catch(Exception e) {}
+					sample = sample + 2;
+				} while (selectedImage == null);
 				postParams.putString("caption", params.getString("message"));
 				postParams
 						.putString("description", params.getString("message"));
