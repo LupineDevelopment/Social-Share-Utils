@@ -68,4 +68,4 @@ Pull requests are welcome! If you want to make an improvement to this code, feel
 
 ## LICENSE
 
-Social-Share-Utils library is provided under the GPLv2 license. See its contents in the `LICENSE` file.
+Social-Share-Utils library is provided under the GPLv2 license. See its contents in the `LICENSE` file. Nevertheless, if the only parts of Social-Share-Utils you change are the necessary ones listed in the **Required code changes** section above, you don't need to publish your code.
