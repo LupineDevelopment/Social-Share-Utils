@@ -131,8 +131,6 @@ public class Twitter extends SharingAdapter {
 
 					@Override
 					public void run() {
-						Log.d("sn", "looper main: "
-								+ (Looper.myLooper() == Looper.getMainLooper()));
 						if (method == twitter4j.TwitterMethod.UPDATE_STATUS) {
 							e.printStackTrace();
 							event.onError(e.getLocalizedMessage());
