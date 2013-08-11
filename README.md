@@ -20,9 +20,9 @@ Secondly, find `getUserSession` method in Facebook.java and adapt it to your nee
 
 Thirdly, open Twitter.java file and find these lines:
 
-```Configuration configuration = ConfigurationBuilders.getTwitterConfig();```
+`Configuration configuration = ConfigurationBuilders.getTwitterConfig();`
 
-```twitter.setOAuthAccessToken(StaticUtilities.getTwtTokensForUser(params.getString("user")));```
+`twitter.setOAuthAccessToken(StaticUtilities.getTwtTokensForUser(params.getString("user")));`
 
 And also adapt it according to your needs. If you're willing to use this library, you know how to use it.
 
