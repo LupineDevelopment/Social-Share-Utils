@@ -5,7 +5,7 @@ Set of utilities used in [Quick Social](https://play.google.com/store/apps/detai
 
 ## Note
 
-This isn't a standalone Android library. You cannot add it to your project as a dependency. It won't even work without some changes to its code (keep in mind that Social-Share-Utils is provided under the GPLv2 license). I advise you to fork this project, and add to your app as a git submodule.
+This isn't a standalone Android library. You cannot add it to your project as a dependency. It won't even work without some changes to its code (keep in mind that Social-Share-Utils is provided under the LGPL v2.1 license). I advise you to fork this project, and add to your app as a git submodule.
 
 ## Required libraries
 
@@ -68,4 +68,4 @@ Pull requests are welcome! If you want to make an improvement to this code, feel
 
 ## LICENSE
 
-Social-Share-Utils library is provided under the GPLv2 license. See its contents in the `LICENSE` file. Nevertheless, if the only parts of Social-Share-Utils you change are the necessary ones listed in the **Required code changes** section above, you don't need to publish your code.
+Social-Share-Utils library is provided under the LGPL v2.1 license. See its contents in the `LICENSE` file. Nevertheless, if the only parts of Social-Share-Utils you change are the necessary ones listed in the **Required code changes** section above, you don't need to publish your code.
